@@ -1,4 +1,0 @@
-#main {
-  @include grid-row-without-columns;
-  padding: 1rem;
-}
