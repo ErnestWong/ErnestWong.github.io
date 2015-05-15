@@ -7,38 +7,18 @@ head
     link(rel='stylesheet', href='css/application.css')
     link(rel='stylesheet', href='css/home.css')
     link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
+    link(rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick.css")
+    link(rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick-theme.css")
+
+
     script(src='js/vendor/modernizr.js')
   body
-    header
-      nav.top-bar(data-topbar='', role='navigation')
-        ul.title-area
-          li.name
-            h1
-              a(href='#') My Site
-          // Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
-          li.toggle-topbar.menu-icon
-            a(href='#')
-              span Menu
-        section.top-bar-section
-          // Right Nav Section
-          ul.right
-            li.active
-              a(href='#') Home
-            li
-              a(href='#about') About
-            li
-              a(href='#projects') Projects
-            li
-              a(href='#portfolio') Portfolio
-            li
-              a(href='#contact') Contact
-
     section.hero
       .hero-container
         .row.vertical-center
           .picture.small-2.large-4.columns.small-centered
         .row
-          .name.small-10.large-4.columns.small-centered
+          .name.small-10.large-8.columns.small-centered
             h1 ernest wong
         .row
           .short-description.small-10.large-4.columns.small-centered
@@ -55,16 +35,17 @@ head
       #projects
         h1 Projects
         .row
-          .columns.small-4.medium-2.large-2.small-centered
-            .project-frame-sudoku
-          .columns.small-12.medium-8.large-6.small-centered
-            p yo
-        .row
-          .columns.small-4.medium-2.large-2.small-centered
-            .project-frame-connectd
-        .row
-          .columns.small-12.medium-8.large-8
-            .project-frame-sudoku
+          .columns.small-12.medium-10.large-8.small-centered
+            .project-carousel
+              .element
+                img(src="css/img/project/sudoku-before-nophone.png")
+              .element
+                img(src="css/img/project/connectd-screen-1.png")
+              .element
+                img(src="css/img/project/uwinfo-1-nophone.png")
+              //.project-frame-sudoku
+                img(src="css/img/project/sudoku-before-nophone.png")
+                img(src="css/img/project/sudoku-after-nophone.png")
     section.contact-filler
       .contact-me
     section#contact
@@ -75,5 +56,8 @@ head
           p Ernest Wong 2015
     script(src='js/vendor/jquery.js')
     script(src='js/foundation.min.js')
+    script(src='js/script.js')
+    script(src="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick.min.js")
+
     script.
       $(document).foundation();
