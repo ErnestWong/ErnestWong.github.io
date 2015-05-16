@@ -32,6 +32,7 @@ html, body {
 #contact {
   background: #AFCFD1;
   width: 100%;
+  text-align: center;
 }
 
 .picture {
@@ -118,4 +119,8 @@ ul.slick-dots {
 
 .main-btns {
   margin: 2rem 0;
+}
+
+.fa {
+  color: black;
 }

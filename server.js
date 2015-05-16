@@ -4,6 +4,7 @@ var express = require("express"),
 
 app.use("/js", express.static(__dirname + "/js"));
 app.use("/css", express.static(__dirname + "/css"));
+app.use("/", express.static(__dirname));
 
 app.set('views', './views');
 app.set('view engine', 'jade');
