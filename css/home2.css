@@ -1,0 +1,33 @@
+.summary {
+  padding: 5rem;
+  background: #f3f5f8;
+}
+
+.sudoku-img {
+  background: url("img/project/sudoku-before-nophone.png");
+  background-size: cover;
+  width: 100px;
+  height: 150px;
+}
+
+.project-item > img {
+  width: 200px;
+  height: 300px;
+}
+
+.main-btns {
+  width: 175px;
+  height: 175px;
+  border-radius: 100px;
+  margin: 3rem;
+  background-color: #8c9398;
+}
+
+.fa {
+  top: 25%;
+  position: relative;
+}
+
+.hero-btns {
+  padding-top: 3rem;
+}

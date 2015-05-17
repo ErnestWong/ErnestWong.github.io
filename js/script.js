@@ -3,8 +3,8 @@ $(document).ready(function() {
   $('.project-carousel').slick({
     dots: true,
     speed: 500,
-    slidesToScroll: 2,
-    slidesToShow: 2,
+    slidesToScroll: 1,
+    slidesToShow: 1,
     responsive: [
       {
         breakpoint: 480,

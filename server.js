@@ -14,6 +14,10 @@ app.get("/", function (req, res) {
   res.render('index');
 });
 
+app.get("/home.html", function(req, res) {
+  res.render('home');
+});
+
 app.listen(8008, function() {
   console.log("Im listening...");
 });

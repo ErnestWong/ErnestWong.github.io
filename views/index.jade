@@ -2,7 +2,7 @@ doctype html.no-js(lang='en')
 head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Foundation | Welcome
+    title Ernest Wong | Welcome
     link(rel='stylesheet', href='css/foundation.css')
     link(rel='stylesheet', href='css/application.css')
     link(rel='stylesheet', href='css/home.css')
@@ -23,24 +23,43 @@ head
             h1 ernest wong
         .row
           .short-description.small-10.large-4.columns.small-centered
-            ul
-              li Computer Engineering Student
-              li Former Developer @Boltmade
-              li Software Enthousiast
-        .row.main-btns
+            .columns.small-12.medium-4.large-4
+              p Computer Engineering Student |
+            .columns.small-12.medium-4.large-4
+              p Former Developer @Boltmade |
+            .columns.small-12.medium-4.large-4
+              p Software Enthousiast
+        .row.main-btn-rows
           .columns.small-12.medium-4.large-4
             a(href="ernest-resume.pdf")
-              .hvr-grow.button Resume
+              .hvr-grow.button.main-btn
+                .row
+                  .colums.small-12
+                    .fa.fa-file-text-o.fa-2x
+                  .colums.small-12
+                    | Resume
           .columns.small-12.medium-4.large-4
             a(href="https://github.com/ernestwong")
-              button Github
+              .hvr-grow.button.main-btn
+                .row
+                  .colums.small-12
+                    .fa.fa-github.fa-2x
+                .row
+                  .colums.small-12
+                    | Github
           .columns.small-12.medium-4.large-4
             a(href="#projects")
-              button Projects
+              .hvr-grow.button.main-btn
+                .row
+                  .colums.small-12
+                    .fa.fa-folder.fa-2x
+                .row
+                  .colums.small-12
+                    | Projects
     section.summary
       .row
         .small-12.medium-8.columns.small-centered
-          p
+          p.summary-text
             | Hey! I'm Ernest and I'm currently studying Computer Engineering at the University of Waterloo and I like to code in my spare time. Recently, I&apos;ve worked at Boltmade as a co-op. You can check out my stuff on Github, have a look at my resume, give me a shout, or just take a look around.
     section.main
       #projects

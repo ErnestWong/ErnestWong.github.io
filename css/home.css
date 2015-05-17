@@ -19,14 +19,19 @@ html, body {
 
 .summary {
   width: 100%;
-  height: 30%;
-  background: #AFCFD1;
   text-align: center;
+}
+
+.summary-text {
+
+  color: #8c9398;
 }
 
 .contact-me {
   width: 100%;
   display: inline-block;
+  color: #8c9398;
+
 }
 
 #contact {
@@ -101,26 +106,46 @@ h1 {
 }
 
 #projects {
-  background: grey;
   text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .project-carousel {
-  height: 600px;
+  height: 80%;
 }
 
-p, h1, h2 {
+.element {
+  height: 100px;
+}
+
+h1, h2 {
   color: #333333;
+}
+
+p {
+  color: #8c9398;
 }
 
 ul.slick-dots {
   margin-left: 0;
 }
 
-.main-btns {
-  margin: 2rem 0;
+.fa {
+  display: inline-block;
+  color: black;
 }
 
-.fa {
-  color: black;
+.main-btn {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 10px;
+
+  padding-top: 1.5rem;
+
+  margin-bottom: 3rem;
+}
+
+button.slick-prev:before, button.slick-next:before {
+  color: #8c9398 !important;
 }
