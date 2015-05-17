@@ -18,4 +18,8 @@ $(document).ready(function() {
 
   $("a").smoothScroll();
   $("button").smoothScroll();
+
+  $('.header').stickyNavbar({
+    activeClass: "active" 
+  });
 });

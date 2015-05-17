@@ -1,6 +1,8 @@
-.summary {
+#about {
   padding: 5rem 1rem;
   background: #f3f5f8;
+  width: 100%;
+  text-align: center;
 }
 
 .sudoku-img {
@@ -51,8 +53,13 @@
 
 .project-item {
   border: 1px solid #e0e0e0;
+  border-radius: 10px;
   margin: 3rem 1rem;
   padding: 1rem;
+}
+
+.project-img-container {
+  border-radius: 1px;
 }
 
 .project-item > p {
@@ -65,4 +72,15 @@
 
 .summary-text > a {
   color: #333;
+}
+
+
+.active {
+  color: #fff !important;
+  text-decoration: underline !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }

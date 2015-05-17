@@ -11,13 +11,25 @@ head
     link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
     link(rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick.css")
     link(rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick-theme.css")
+    link(rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css")
 
 
     script(src='js/vendor/modernizr.js')
   body
-    section.hero
+    .header#header
+      nav#nav
+        ul.nav.navbar-nav
+          li.menu-item
+            a(href="#home") Home
+          li.menu-item
+            a(href="#about") About
+          li.menu-item
+            a(href="#projects") Projects
+          li.menu-item
+            a(href="#contact") Contact
+    section.hero#home.scrollto
       .hero-container
-        h1 ernest wong
+        h1 Ernest Wong
         .show-for-medium-up
           p computer engineering student | former developer @Boltmade | programmer
         .show-for-small-only
@@ -46,13 +58,13 @@ head
             .hvr-grow.button.main-btns
               p.hover-text Projects
               .fa.fa-code.fa-5x
-    section.summary
+    section#about.scrollto
       h3 Hey, I'm Ernest.
       .hairline.columns.small-2.large-1.small-centered
       .columns.small-12.medium-8.large-8.small-centered
         p.summary-text
           | I'm currently studying Computer Engineering at the <a href="http://uwaterloo.ca">University of Waterloo</a> and I like to code in my spare time. Recently, I've worked at <a href="http://boltmade.com">Boltmade</a> as a co-op doing full-stack web dev. I've also done a bunch of <a href="#projects">Android projects</a> for fun, and I'm always eager to learn new things. You can check out my stuff on <a href="http://github.com/ernestwong">Github</a>, have a look at <a href="ernest-resume.pdf">my resume</a>, give me a <a href="mailto:ewong2222@hotmail.com">shout</a>, or just take a look around.
-    section#projects
+    section#projects.scrollto
       h1 Projects
       .hairline.columns.small-2.large-1.small-centered
       .projects-container.row
@@ -90,7 +102,7 @@ head
             p Have a worry-free nap with MuseDreams. An IoT (Internet of Things) hack created at WesternHacks with the Muse headband that makes adjustments to external surroundings when user is falling asleep. Interprets input data from headband via state machine and uploads user alertness status to server where Android phone and Arduino responds.
             p 
               | <a href="http://github.com/ernestwong/musedreams">Github</a> | <a href="http://hackwestern.challengepost.com/submissions/34909-musedreams?utm_campaign=hack-western-2015_20141210&utm_content=submission_visible_in_gallery&utm_medium=email&utm_source=transactional">ChallengePost</a>
-    section#contact  
+    section#contact.scrollto
       h2 Contact me
       .hairline.columns.small-2.large-1.small-centered
 
@@ -115,6 +127,9 @@ head
     script(src='js/foundation.min.js')
     script(src='js/script.js')
     script(src="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick.min.js")
+
+    script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js")
+    script(src="//cdn.jsdelivr.net/stickynavbar.js/1.1.2/jquery.stickyNavbar.min.js")
 
     script.
       $(document).foundation();
