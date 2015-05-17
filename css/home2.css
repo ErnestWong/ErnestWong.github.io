@@ -23,6 +23,12 @@
   background-color: #8c9398;
 }
 
+.hover-text {
+  margin-bottom: 0;
+  margin-top: 0.75rem;
+  color: #F5FFFA;
+}
+
 .main-btns-small {
   border-radius: 10px;
   background-color: #333333;
