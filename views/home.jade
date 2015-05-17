@@ -59,25 +59,34 @@ head
         .columns.large-8.medium-10.large-8.medium-centered
           .project-item
             h3 Sudoku Solver
-            img(src="css/img/project/sudoku-before-nophone.png")
-            img(src="css/img/project/sudoku-after-nophone.png")
+            a(href="http://github.com/ernestwong/sudokusolver")
+              .project-img-container
+                img(src="css/img/project/sudoku-before-nophone.png")
+                img(src="css/img/project/sudoku-after-nophone.png")
             p Simply take a picture of a Sudoku puzzle and have the solution in front of you. Uses OpenCV to process image and Tesseract OCR to detect digits. Implemented backtracking algorithm to solve sudoku puzzle.
             a(href="http://github.com/ernestwong/sudokusolver") Github
           .project-item
             h3 Connectd
-            img(src="css/img/project/connectd-screen-1.png")
+            a(href="https://connectd.herokuapp.com")
+              .project-img-container
+                img(src="css/img/project/connectd-screen-1.png")
             p Get Connectd with anyone with a single click. Ruby on Rails application that allows user to send invitations simultaneously via all social media platforms to another user.
             p 
               | <a href="http://github.com/ernestwong/connectd">Github</a> | <a href="https://connectd.herokuapp.com/">Website</a>
           .project-item
             h3 UWInfoSession
-            img(src="css/img/project/uwinfo-1-nophone.png")
-            img(src="css/img/project/uwinfo-2-nophone.png")
+            a(href="http://github.com/ernestwong/uwinfosession")
+              .project-img-container
+                img(src="css/img/project/uwinfo-1-nophone.png")
+                img(src="css/img/project/uwinfo-2-nophone.png")
             p A simple Android application that retrieves data from Waterloo API and displays upcoming information sessions. Can view individual event details and add event to system calendar.
             a(href="http://github.com/ernestwong/uwinfosession") Github
           .project-item
             h3 MuseDreams
-            img(src="css/img/project/musedreams-code.png")
+            a(href="http://github.com/ernestwong/musedreams")
+              .project-img-container
+                img(src="css/img/project/musedreams-code.png")
+                img(src="css/img/project/muse-headband.png")
             p Have a worry-free nap with MuseDreams. An IoT (Internet of Things) hack created at WesternHacks with the Muse headband that makes adjustments to external surroundings when user is falling asleep. Interprets input data from headband via state machine and uploads user alertness status to server where Android phone and Arduino responds.
             p 
               | <a href="http://github.com/ernestwong/musedreams">Github</a> | <a href="http://hackwestern.challengepost.com/submissions/34909-musedreams?utm_campaign=hack-western-2015_20141210&utm_content=submission_visible_in_gallery&utm_medium=email&utm_source=transactional">ChallengePost</a>
@@ -101,6 +110,7 @@ head
               .fa.fa-envelope.fa-2x
 
     script(src='js/vendor/jquery.js')
+    script(src='js/vendor/jquery.contenthover.min.js')
     script(src='js/vendor/jquery.smooth-scroll.js')
     script(src='js/foundation.min.js')
     script(src='js/script.js')
