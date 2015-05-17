@@ -23,6 +23,11 @@
   background-color: #8c9398;
 }
 
+.main-btns-small {
+  border-radius: 10px;
+  background-color: #333333;
+}
+
 .fa {
   top: 25%;
   position: relative;
@@ -30,6 +35,7 @@
 
 .hero-btns {
   padding-top: 3rem;
+  background: #E0E0E0;
 }
 
 .hairline {
@@ -41,7 +47,10 @@
   border: 1px solid #e0e0e0;
   margin: 3rem 1rem;
   padding: 1rem;
+}
 
+.project-item > p {
+  padding-top: 1rem;
 }
 
 .contact-icons {
