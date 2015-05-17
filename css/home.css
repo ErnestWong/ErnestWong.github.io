@@ -30,12 +30,10 @@ html, body {
 .contact-me {
   width: 100%;
   display: inline-block;
-  color: #8c9398;
 
 }
 
 #contact {
-  background: #AFCFD1;
   width: 100%;
   text-align: center;
 }
@@ -61,7 +59,8 @@ html, body {
   position: relative;
 }
 
-ul li {
+ul, li {
+  color: #8c9398;
   list-style-type: none;
 }
 
@@ -112,7 +111,8 @@ h1 {
 }
 
 .project-carousel {
-  height: 80%;
+  width: 150px;
+  height: 200px;
 }
 
 .element {

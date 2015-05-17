@@ -1,5 +1,5 @@
 .summary {
-  padding: 5rem;
+  padding: 5rem 1rem;
   background: #f3f5f8;
 }
 
@@ -30,4 +30,24 @@
 
 .hero-btns {
   padding-top: 3rem;
+}
+
+.hairline {
+  border: 1px solid #e0e0e0;
+  margin: 1rem 0 3rem 0;
+}
+
+.project-item {
+  border: 1px solid #e0e0e0;
+  margin: 3rem 1rem;
+  padding: 1rem;
+
+}
+
+.contact-icons {
+  margin-bottom: 1rem;
+}
+
+.summary-text > a {
+  color: #333;
 }
