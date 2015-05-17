@@ -36,6 +36,14 @@
   background-color: #333333;
 }
 
+.hero-btns-small {
+  margin-top: 3rem;
+}
+
+.main-btns-small > p {
+  margin-bottom: 0;
+}
+
 .fa {
   top: 25%;
   position: relative;
@@ -67,7 +75,7 @@
 }
 
 .contact-icons {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .summary-text > a {
@@ -105,4 +113,15 @@
   background: #fafafa;
   position: fixed;
   z-index: 999;
+}
+
+footer {
+  background: #333333;
+}
+
+footer > p {
+  float: right;
+  margin-right: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
