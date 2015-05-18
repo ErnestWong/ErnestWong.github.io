@@ -23,8 +23,13 @@ $(document).ready(function() {
     activeClass: "active" 
   });
 
-  $("#hover").contenthover({
-    overlay_background: "#000",
-    overlay_opacity: 0.8
+
+  $(".icon-center").hide();
+  $(".project-img-container").hover(function() {
+    $(".project-img").foggy();
+    $(this).find(".icon-center").fadeIn(300);
+  }, function() {
+    $(this).find(".icon-center").fadeOut(300);
+    $(".project-img").foggy(false);
   });
 });

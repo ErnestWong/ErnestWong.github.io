@@ -65,13 +65,6 @@
   border-radius: 1px;
 }
 
-.project-img-container > img {
-  -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
-  -o-filter: blur(1px);
-  -ms-filter: blur(1px);
-}
-
 .project-item > p {
   padding-top: 1rem;
 }
@@ -126,4 +119,13 @@ footer > p {
   margin-right: 3rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.icon-center {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 1px;
+  z-index: 999;
 }
