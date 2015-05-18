@@ -7,9 +7,8 @@ html, body {
 
 .hero {
   width: 100%;
-  height: 70%;
-
-  box-shadow: inset 0px -120px 100px -10px rgba(0, 0, 0, 0.7);
+  height: 100%;
+  background: #E0E0E0;
 }
 
 .hero-container {
@@ -18,23 +17,20 @@ html, body {
   text-align: center;
 }
 
-.summary {
-  width: 100%;
-  height: 30%;
-  background: #AFCFD1;
-  text-align: center;
+.summary-text {
+
+  color: #8c9398;
 }
 
-.contact-filler {
+.contact-me {
   width: 100%;
-  height: 30%;
-  background: #AFCFD1;
-  text-align: center;
+  display: inline-block;
+
 }
 
 #contact {
   width: 100%;
-  height: 100%;
+  text-align: center;
 }
 
 .picture {
@@ -49,7 +45,6 @@ html, body {
   border: 5px solid #E0E0E0;
 }
 
-
 .short-description {
   position: relative;
 }
@@ -59,8 +54,10 @@ html, body {
   position: relative;
 }
 
-ul li {
+ul, li {
+  color: #8c9398;
   list-style-type: none;
+  margin-bottom: 0.25rem;
 }
 
 footer {
@@ -71,15 +68,21 @@ footer {
   bottom: 0;
 }
 
-.project-frame-sudoku {
-  border: 5px solid #E0E0E0;
-  background: url("img/sudoku_solver_no_white.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+#copyright {
+  color: white;
+  float: right;
+}
 
-  height: 10rem;
-  width: 10rem;
-  border-radius: 1rem;
+.project-carousel {
+
+}
+
+img {
+  width: 40%;
+}
+
+.element {
+
 }
 
 .project-frame-connectd {
@@ -93,6 +96,52 @@ footer {
   border-radius: 1rem;
 }
 
+h1 {
+  font-size: 3.5rem;
+}
+
 #projects {
   text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.project-carousel {
+  width: 150px;
+  height: 200px;
+}
+
+.element {
+  height: 100px;
+}
+
+h1, h2 {
+  color: #333333;
+}
+
+p {
+  color: #8c9398;
+}
+
+ul.slick-dots {
+  margin-left: 0;
+}
+
+.fa {
+  display: inline-block;
+  color: #333333;
+}
+
+.main-btn {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 10px;
+
+  padding-top: 1.5rem;
+
+  margin-bottom: 3rem;
+}
+
+button.slick-prev:before, button.slick-next:before {
+  color: #8c9398 !important;
 }
