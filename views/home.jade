@@ -16,22 +16,22 @@ head
 
     script(src='js/vendor/modernizr.js')
   body
-    .header#header
+    .header#header.show-for-medium-up
       nav#nav
         ul.nav.navbar-nav
           .left-header
             li
               a(href="https://github.com/ernestwong")
-                .fa.fa-github.hvr-grow
+                .fa.fa-github.hvr-grow.fa-2x
             li
               a(href="https://ca.linkedin.com/in/ernestwong222")
-                .fa.fa-linkedin.hvr-grow
+                .fa.fa-linkedin.hvr-grow.fa-2x
             li
               a(href="http://twitter.com/ewong222")
-                .fa.fa-twitter.hvr-grow
+                .fa.fa-twitter.hvr-grow.fa-2x
             li
               a(href="mailto:ewong2222@hotmail.com")
-                .fa.fa-envelope.hvr-grow
+                .fa.fa-envelope.hvr-grow.fa-2x
           .right-header
             li.menu-item.hvr-grow
               a(href="#contact") Contact
@@ -45,7 +45,8 @@ head
       .hero-container
         h1 Ernest Wong
         .show-for-medium-up
-          p computer engineering student | former developer @Boltmade | programmer
+          p.summary-text
+            | computer engineering student | former developer <a href="http://boltmade.com">@Boltmade</a>
         .show-for-small-only
           li
             ul computer engineering student
@@ -82,38 +83,38 @@ head
       h1 Projects
       .hairline.columns.small-2.large-1.small-centered
       .projects-container.row
-        .columns.large-8.medium-10.large-8.medium-centered
+        .columns.large-8.medium-10.medium-centered
           .project-item
             h3 Sudoku Solver
             a(href="http://github.com/ernestwong/sudokusolver")
-              .project-img-container
+              .project-img-container.hvr-grow
                 img(src="css/img/project/sudoku-before-nophone.png")
                 img(src="css/img/project/sudoku-after-nophone.png")
-            p Simply take a picture of a Sudoku puzzle and have the solution in front of you. Uses OpenCV to process image and Tesseract OCR to detect digits. Implemented backtracking algorithm to solve sudoku puzzle.
+            p.summary-text Simply take a picture of a Sudoku puzzle and have the solution in front of you. Android app that uses OpenCV to process image and Tesseract OCR to detect digits. Implemented backtracking algorithm to solve sudoku puzzle.
             a(href="http://github.com/ernestwong/sudokusolver") Github
           .project-item
             h3 Connectd
             a(href="https://connectd.herokuapp.com")
-              .project-img-container
+              .project-img-container.hvr-grow
                 img(src="css/img/project/connectd-screen-1.png")
-            p Get Connectd with anyone with a single click. Ruby on Rails application that allows user to send invitations simultaneously via all social media platforms to another user.
+            p.summary-text Get Connectd with anyone with a single click. Ruby on Rails application that allows user to send invitations simultaneously via all social media platforms to another user.
             p 
               | <a href="http://github.com/ernestwong/connectd">Github</a> | <a href="https://connectd.herokuapp.com/">Website</a>
           .project-item
             h3 UWInfoSession
             a(href="http://github.com/ernestwong/uwinfosession")
-              .project-img-container
+              .project-img-container.hvr-grow
                 img(src="css/img/project/uwinfo-1-nophone.png")
                 img(src="css/img/project/uwinfo-2-nophone.png")
-            p A simple Android application that retrieves data from Waterloo API and displays upcoming information sessions. Can view individual event details and add event to system calendar.
+            p.summary-text A simple Android application that retrieves data from Waterloo API and displays upcoming information sessions. Can view individual event details and add event to system calendar.
             a(href="http://github.com/ernestwong/uwinfosession") Github
           .project-item
             h3 MuseDreams
             a(href="http://github.com/ernestwong/musedreams")
-              .project-img-container
+              .project-img-container.hvr-grow
                 img(src="css/img/project/musedreams-code.png")
                 img(src="css/img/project/muse-headband.png")
-            p Have a worry-free nap with MuseDreams. An IoT (Internet of Things) hack created at WesternHacks with the Muse headband that makes adjustments to external surroundings when user is falling asleep. Interprets input data from headband via state machine and uploads user alertness status to server where Android phone and Arduino responds.
+            p.summary-text Have a worry-free nap with MuseDreams. An <a href="http://en.wikipedia.org/wiki/Internet_of_Things">IoT</a> (Internet of Things) hack created at WesternHacks with the <a href="http://www.choosemuse.com/">Muse headband</a> that makes adjustments to external surroundings when user is falling asleep. Interprets input data from headband via state machine and uploads user alertness status to server where Android phone and Arduino responds.
             p 
               | <a href="http://github.com/ernestwong/musedreams">Github</a> | <a href="http://hackwestern.challengepost.com/submissions/34909-musedreams?utm_campaign=hack-western-2015_20141210&utm_content=submission_visible_in_gallery&utm_medium=email&utm_source=transactional">ChallengePost</a>
     section#contact.scrollto

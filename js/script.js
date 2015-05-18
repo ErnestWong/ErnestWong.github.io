@@ -22,4 +22,9 @@ $(document).ready(function() {
   $('.header').stickyNavbar({
     activeClass: "active" 
   });
+
+  $("#hover").contenthover({
+    overlay_background: "#000",
+    overlay_opacity: 0.8
+  });
 });
