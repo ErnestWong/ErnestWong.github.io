@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $('body').fadeIn(2000);
   console.log("hi");
   $('.project-carousel').slick({
     dots: true,
@@ -31,5 +32,12 @@ $(document).ready(function() {
   }, function() {
     $(this).find(".icon-center").fadeOut(300);
     $(".project-img").foggy(false);
+  });
+
+  $(".hover-text").hide();
+  $(".main-btns").hover(function() {
+    $(this).find(".hover-text").fadeIn(200);
+  }, function() {
+    $(this).find(".hover-text").fadeOut(200);
   });
 });
