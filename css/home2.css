@@ -129,11 +129,11 @@ footer > p {
   z-index: 999;
 }
 
-.main-btns:hover {
+.main-btns:hover, .main-btns-small:hover {
   background: #333333;
 }
 
-.main-btns:hover p {
+.main-btns:hover, .main-btns-small:hover p {
   color: #8c9398;
 }
 
