@@ -27,11 +27,11 @@ $(document).ready(function() {
 
   $(".icon-center").hide();
   $(".project-img-container").hover(function() {
-    $(".project-img").foggy();
+    $(this).find(".project-img").foggy();
     $(this).find(".icon-center").fadeIn(300);
   }, function() {
     $(this).find(".icon-center").fadeOut(300);
-    $(".project-img").foggy(false);
+    $(this).find(".project-img").foggy(false);
   });
 
   $(".hover-text").hide();
