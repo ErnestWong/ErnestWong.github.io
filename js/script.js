@@ -39,8 +39,11 @@ $(document).ready(function() {
     $(this).find(".hover-text").fadeOut(200);
   });
 
+  var compEng = "computer engineering <a href='http://uwaterloo.ca'>@uWaterloo</a>";
+  var boltmade = "former developer <a href='http://boltmade.com'>@Boltmade</a>";
+
   $(".typedjs").typed({
-    strings: ["computer engineering uWaterloo", "former developer <a href='http://boltmade.com'>@Boltmade</a>", "full-stack web development", "Android development", "vim enthousiast"],
+    strings: [compEng, boltmade, "full-stack web development", "Android development", "vim enthousiast"],
     loop: true
   });
 });
