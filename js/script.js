@@ -24,7 +24,6 @@ $(document).ready(function() {
     activeClass: "active" 
   });
 
-
   $(".icon-center").hide();
   $(".project-img-container").hover(function() {
     $(this).find(".project-img").foggy();
@@ -34,7 +33,6 @@ $(document).ready(function() {
     $(this).find(".project-img").foggy(false);
   });
 
-  $(".hover-text").hide();
   $(".main-btns").hover(function() {
     $(this).find(".hover-text").fadeIn(200);
   }, function() {
