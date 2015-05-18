@@ -38,4 +38,9 @@ $(document).ready(function() {
   }, function() {
     $(this).find(".hover-text").fadeOut(200);
   });
+
+  $(".typedjs").typed({
+    strings: ["computer engineering uWaterloo", "former developer <a href='http://boltmade.com'>@Boltmade</a>", "full-stack web development", "Android development", "vim enthousiast"],
+    loop: true
+  });
 });

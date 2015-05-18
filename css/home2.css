@@ -44,7 +44,6 @@
 
 .hero-btns {
   padding-top: 3rem;
-  background: #E0E0E0;
 }
 
 .hairline {
@@ -139,4 +138,29 @@ footer > p {
 
 .main-btns:hover .fa {
   color: #8c9398;
+}
+
+
+/*typed.js css*/
+.typed-cursor{
+  color: #8c9398;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
 }
