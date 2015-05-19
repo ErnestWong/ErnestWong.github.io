@@ -145,6 +145,14 @@ footer > p {
   color: #8c9398;
 }
 
+.middle-header img {
+  width: 6rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+
+  position: absolute;
+  right: 47%;
+}
 
 /*typed.js css*/
 .typed-cursor{
@@ -168,4 +176,22 @@ footer > p {
   0% { opacity:1; }
   50% { opacity:0; }
   100% { opacity:1; }
+}
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .right-header a {
+    font-size: 0.75rem;
+  }
+
+  .middle-header img {
+    width: 5rem;
+    height: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  .hero-name {
+    font-size: 3.5rem;
+  }
 }
