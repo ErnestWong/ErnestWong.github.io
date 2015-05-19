@@ -1,3 +1,7 @@
+.hero-name {
+  font-size: 5rem;
+}
+
 #about {
   padding: 5rem 1rem;
   background: #f3f5f8;
@@ -44,6 +48,7 @@
 
 .hero-btns {
   padding-top: 3rem;
+  background: #E0E0E0;
 }
 
 .hairline {
