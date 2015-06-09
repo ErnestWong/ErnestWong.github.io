@@ -20,6 +20,7 @@
   border-radius: 100px;
   margin: 3rem;
   background-color: #8c9398;
+  box-shadow: -1px 1px 10px 1px #333333 !important;
 }
 
 .hover-text {
@@ -48,7 +49,6 @@
 
 .hero-btns {
   padding-top: 3rem;
-  background: #E0E0E0;
 }
 
 .hairline {
@@ -157,6 +157,7 @@ footer > p {
 /*typed.js css*/
 .typed-cursor{
   color: #8c9398;
+  font-size: 1.25rem;
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
@@ -199,4 +200,8 @@ footer > p {
 .google-analytics {
   width: 1px;
   height: 1px;
+}
+
+.typedjs {
+  font-size: 1.25rem;
 }

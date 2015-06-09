@@ -43,7 +43,7 @@ $(document).ready(function() {
   var boltmade = "former developer <a href='http://boltmade.com'>@Boltmade</a>";
 
   $(".typedjs").typed({
-    strings: [compEng, boltmade, "full-stack web developer", "Android developer", "vim enthousiast"],
+    strings: [compEng, boltmade, "full-stack web developer", "Android developer", "vim enthusiast"],
     loop: true
   });
 });
