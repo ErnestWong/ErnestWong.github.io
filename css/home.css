@@ -8,7 +8,15 @@ html, body {
 .hero {
   width: 100%;
   height: 100%;
-  background: #E0E0E0;
+  background: url("img/foggy-sunset.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 40em) {
+  .hero {
+    background: #E0E0E0;
+  }
 }
 
 .hero-container {
@@ -18,7 +26,6 @@ html, body {
 }
 
 .summary-text {
-
   color: #8c9398;
 }
 
