@@ -2,6 +2,13 @@
   font-size: 5rem;
 }
 
+/* only display none on hero name if not mobile */
+@media only screen and (min-width: 40.063em) {
+  .hero-name {
+    display: none;
+  }
+}
+
 #about {
   padding: 5rem 1rem;
   background: #f3f5f8;
@@ -48,6 +55,7 @@
 }
 
 .hero-btns {
+  display: none;
   padding-top: 3rem;
 }
 
@@ -103,7 +111,7 @@
 }
 
 .navbar-nav a {
-  color: #8c9398;
+  color: #333333;
 }
 
 .header {

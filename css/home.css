@@ -82,6 +82,10 @@ a {
   position: relative;
 }
 
+.lastname {
+  color: #8c9398;
+}
+
 ul, li {
   color: #8c9398;
   list-style-type: none;
