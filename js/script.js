@@ -20,9 +20,9 @@ $(document).ready(function() {
   $("a").smoothScroll();
   $("button").smoothScroll();
 
-  $('.header').stickyNavbar({
-    activeClass: "active" 
-  });
+  // $('.header').stickyNavbar({
+  //   activeClass: "active" 
+  // });
 
   $(".icon-center").hide();
   $(".project-img-container").hover(function() {
@@ -39,11 +39,4 @@ $(document).ready(function() {
     $(this).find(".hover-text").fadeOut(200);
   });
 
-  var compEng = "computer engineering student <a href='http://uwaterloo.ca'>@uWaterloo</a>";
-  var boltmade = "former developer <a href='http://boltmade.com'>@Boltmade</a>";
-
-  $(".typedjs").typed({
-    strings: [compEng, boltmade, "full-stack web developer", "Android developer", "vim enthusiast"],
-    loop: true
-  });
 });
