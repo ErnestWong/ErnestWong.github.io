@@ -10,6 +10,6 @@ move:
 
 url = https://raw.githubusercontent.com/ErnestWong/resume/master/one-column-resume/ErnestWong.pdf
 download-resume:
-	@wget $(url) -O ernest-resume.pdf
+	@wget $(url) -O resume.pdf
 	@echo downloaded resume from github
 
